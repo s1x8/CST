@@ -1,1 +1,15 @@
-# CST
+# POSITION PAPER
+# ON SOFTWARE AND HARDWARE
+# FOR
+# RISK MANAGEMENT FRAMEWORK COMPLIANCE SELF-TEST
+
+1. This paper addresses the importance of embracing and implementing the Compliance Self-Test (CST) as referenced in the National Institute of Standards and Technology (NIST) Risk Management Framework (RMF) workflow management process Step 4, Assess.  The CST is completed at the start of the Assess step and is normally a manual process written by the Information Systems Security Engineer (ISSE).  The CST may be several tests long in support of different operating systems, or applications, or hardware-based evaluations and is a measure of the security posture of the target system.  The CST can be accomplished more efficiently, in an automated fashion, by interpreting scans and cataloging the outcomes, for software based tests.
+
+2. The CST is comprised of a document that references technical guidance, for example, a DISA STIG implementation, for an OS or an application, per the NIST RMF system level controls.  For controls with settings referenced by the guidance implementation document, a manual check must take place for each target system.  If a control cannot be answered by the guidance implementation document, it is considered an interview control and may be satisfied as such with referenced documentation.  The process of verifying control implementation, as a measure of the security posture of the target system, can be achieved with reference to Telos Security Center, or the Security Content Automation protocol (SCAP) Compliance Checker (SCC) tool.  These tools are based on the DISA STIG’s and delineate between Severity or Category I, II and III findings, respectively.  These tools place a value on each finding and attempt to define the security posture as a severity or a percentage.
+
+3. For comparison reference to other technical guidance, DISA STIG benchmarks further define the configuration settings and can be matted against the security scan tool, allowing findings to be known by Severity or Category immediately, with the fix text for each finding itemized.  Items that can’t be fixed, need to be documented with valid justification.  This process allows for immediate known vulnerabilities and knowledge on how to fix them, as compared to the manual CST reference, and manual system query that needs to occur with a traditional CST plan, as defined.
+  
+4. The steps that should be defined for reviewing scans and beginning the CST process should start at the OEM factory.  Scans should be completed, and reviewed by the ISSE at that time, in the same window of opportunity, beginning at Step 4, Assess.  While awaiting site testing, findings should be fixed and additional scans should be completed, leading to an agreed upon sufficiently configured target system.  The system should be installed and additional scans should be administered at the site, during Operational testing.  As defined here, these steps do not veer from the referenced NIST RMF workflow, they are steps that should be followed.  Sufficient documentation describing the security posture of the target system will be generated throughout the process and can be managed in the body of evidence for the project.
+
+Revised for Git Project/CST
+Kendall Frye, CTR/153d CACS/GSC/kendall.frye.ctr/kf/07 NOV 2023
