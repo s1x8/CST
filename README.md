@@ -8,5 +8,4 @@
   
 4. The steps that should be defined for reviewing scans and beginning the CST process should start at the OEM factory.  Scans should be completed, and reviewed by the ISSE at that time, in the same window of opportunity, beginning at Step 4, Assess.  While awaiting site testing, findings should be fixed and additional scans should be completed, leading to an agreed upon sufficiently configured target system.  The system should be installed and additional scans should be administered at the site, during Operational testing.  As defined here, these steps do not veer from the referenced NIST RMF workflow, they are steps that should be followed.  Sufficient documentation describing the security posture of the target system will be generated throughout the process and can be managed in the body of evidence for the project.
 
-Revised for Git Project/CST
-Kendall Frye, CTR/153d CACS/GSC/kendall.frye.ctr/kf/07 NOV 2023
+Revised for Git Project CST/kf/07 NOV 2023
