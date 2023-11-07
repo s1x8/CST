@@ -1,7 +1,4 @@
-# POSITION PAPER
-# ON SOFTWARE AND HARDWARE
-# FOR
-# RISK MANAGEMENT FRAMEWORK COMPLIANCE SELF-TEST
+# POSITION PAPER ON SOFTWARE AND HARDWARE FOR RISK MANAGEMENT FRAMEWORK COMPLIANCE SELF-TEST
 
 1. This paper addresses the importance of embracing and implementing the Compliance Self-Test (CST) as referenced in the National Institute of Standards and Technology (NIST) Risk Management Framework (RMF) workflow management process Step 4, Assess.  The CST is completed at the start of the Assess step and is normally a manual process written by the Information Systems Security Engineer (ISSE).  The CST may be several tests long in support of different operating systems, or applications, or hardware-based evaluations and is a measure of the security posture of the target system.  The CST can be accomplished more efficiently, in an automated fashion, by interpreting scans and cataloging the outcomes, for software based tests.
 
